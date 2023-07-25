@@ -12,8 +12,8 @@ import com.example.pokemon.service.PokemonService;
 import com.example.pokemon.service.helper.ResponseHelper;
 
 @RestController
-@RequestMapping(value = "/api/v1/craw", produces = "application/json; charset=UTF-8")
-public class CrawController {
+@RequestMapping(value = "/api/v1/crawl", produces = "application/json; charset=UTF-8")
+public class CrawlController {
     @Autowired
     private PokemonService pokemonService;
     @Autowired
